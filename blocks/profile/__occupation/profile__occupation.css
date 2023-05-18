@@ -11,7 +11,12 @@
   max-width: 500px;
 }
 
-/* tablet/mobile-breakpoint */
+@media screen and (max-width: 930px) {
+  .profile__occupation {
+    max-width: 400px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .profile__occupation {
     order: 3;

@@ -1,5 +1,4 @@
-/* desktop-breakpoint */
-.button_type_like {
+.element__button-like {
   border: 0;
   padding-right: 40px;
   align-self: center;
@@ -7,15 +6,16 @@
   background-repeat: no-repeat;
   width: 22px;
   min-height: 19px;
+  cursor: pointer;
+  background-color: transparent;
 }
 
-.button_type_like:hover {
+.element__button-like:hover {
   opacity: .5;
 }
 
-/* mobile-breakpoint */
 @media screen and (max-width: 620px) {
-  .button_type_like {
+  .element__button-like {
     padding-right: 21px;
     box-sizing: content-box;
   }

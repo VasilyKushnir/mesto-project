@@ -1,17 +1,34 @@
 # Проект: Место
 
+---
 ### Обзор
-
+* Описание
+* Стек
+* Реализация
 * Figma
-* Картинки
+* GitHub Pages
+---
 
-**Figma**
+**Описание**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+Проект о путешествии по России. Представлен адаптивной страницей и формой.
 
-**Картинки**
+**Стек**
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+* HTML
+* CSS
 
-Удачи!
+** Реализация **
+
+* Flexbox
+* CSS Grid
+* Формы
+* Организация файловой структуры посредством Nested
+
+** Figma **
+
+[Ссылка на макет проекта](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?type=design&node-id=0-1&t=stCu9hi2R6JpLAwI-0)
+
+** GitHub Pages **
+
+[Ссылка на реализованный проект](https://vasilykushnir.github.io/mesto/)

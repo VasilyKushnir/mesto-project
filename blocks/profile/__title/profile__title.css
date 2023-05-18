@@ -1,0 +1,16 @@
+.profile__title {
+  grid-area: title;
+  display: flex;
+  padding: 16px 0 0 30px;
+  column-gap: 18px;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__title {
+    order: 2;
+    margin: auto;
+    column-gap: 10px;
+    padding-top: 1px;
+  }
+}

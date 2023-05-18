@@ -1,0 +1,14 @@
+/* desktop-breakpoint */
+.content {
+  max-width: 880px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+/* mobile-breakpoint */
+@media screen and (max-width: 425px) {
+  .content {
+    max-width: calc(100% - 19px*2);
+  }
+}

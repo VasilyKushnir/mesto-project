@@ -1,0 +1,20 @@
+/* desktop-breakpoint */
+.profile__occupation {
+  grid-area: occupation;
+  margin: 0;
+  padding-left: 30px;
+  align-self: center;
+  padding-bottom: 12px;
+}
+
+/* tablet/mobile-breakpoint */
+@media screen and (max-width: 768px) {
+  .profile__occupation {
+    order: 3;
+    padding-left: 0;
+    padding-top: 7px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

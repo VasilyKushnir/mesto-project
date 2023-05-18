@@ -1,0 +1,19 @@
+/* desktop-breakpoint */
+.profile {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 120px 1fr 150px;
+  grid-template-rows: 60px 60px;
+  grid-template-areas:
+  "avatar title add"
+  "avatar occupation add";
+}
+
+/* tablet/mobile-breakpoint */
+@media screen and (max-width: 768px) {
+  .profile {
+    padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,16 @@
+/* desktop-breakpoint */
+.profile__avatar {
+  grid-area: avatar;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* tablet/mobile-breakpoint */
+@media screen and (max-width: 768px) {
+  .profile__avatar {
+    margin: auto;
+    order: 1;
+  }
+}

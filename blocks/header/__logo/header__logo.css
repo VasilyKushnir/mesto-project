@@ -1,0 +1,14 @@
+/* desktop-breakpoint */
+.header__logo {
+  padding-bottom: 41px;
+}
+
+/* mobile-breakpoint */
+@media screen and (max-width: 425px) {
+  .header__logo {
+    width: 104px;
+    height: 27px;
+    padding-left: 27px;
+    padding-bottom: 31.6px;
+  }
+}

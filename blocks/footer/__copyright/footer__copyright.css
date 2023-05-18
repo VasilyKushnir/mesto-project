@@ -1,0 +1,13 @@
+/* desktop-breakpoint */
+.footer__copyright {
+  color: #545454;
+  margin: 0;
+}
+
+/* mobile-breakpoint */
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

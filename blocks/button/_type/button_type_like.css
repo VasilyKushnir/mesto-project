@@ -1,0 +1,23 @@
+/* desktop-breakpoint */
+.button_type_like {
+  border: 0;
+  padding-right: 40px;
+  align-self: center;
+  background-image: url(../../../images/buttons/like.svg);
+  background-repeat: no-repeat;
+  width: 22px;
+  min-height: 19px;
+}
+
+.button_type_like:active {
+  background-image: url(../../../images/buttons/like-black.svg);
+  opacity: 1;
+}
+
+/* mobile-breakpoint */
+@media screen and (max-width: 620px) {
+  .button_type_like {
+    padding-right: 21px;
+    box-sizing: content-box;
+  }
+}

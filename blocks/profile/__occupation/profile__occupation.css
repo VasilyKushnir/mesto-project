@@ -5,6 +5,10 @@
   padding-left: 30px;
   align-self: center;
   padding-bottom: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 500px;
 }
 
 /* tablet/mobile-breakpoint */

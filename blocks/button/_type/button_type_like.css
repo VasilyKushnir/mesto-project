@@ -9,9 +9,8 @@
   min-height: 19px;
 }
 
-.button_type_like:active {
-  background-image: url(../../../images/buttons/like-black.svg);
-  opacity: 1;
+.button_type_like:hover {
+  opacity: .5;
 }
 
 /* mobile-breakpoint */

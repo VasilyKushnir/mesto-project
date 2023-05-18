@@ -6,6 +6,12 @@
   min-height: 50px;
   color: #fff;
   background-color: #000;
+  margin-bottom: 36px;
+  cursor: pointer;
+}
+
+.popup__button:hover {
+  background-color: rgba(0, 0, 0, .8);
 }
 
 @media screen and (max-width: 620px) {

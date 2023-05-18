@@ -8,6 +8,7 @@
   border: 0;
   padding: 0;
   background-image: url(../../../images/buttons/close.svg);
+  cursor: pointer;
 }
 
 .popup__close:hover {

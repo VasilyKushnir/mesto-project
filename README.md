@@ -31,4 +31,4 @@
 
 **GitHub Pages**
 
-[Ссылка на реализованный проект](https://vasilykushnir.github.io/mesto/)
+[Ссылка на реализованный проект](https://vasilykushnir.github.io/mesto-project/)
